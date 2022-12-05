@@ -19,9 +19,13 @@ from django.urls import path
 from capstoneApi.views import register_user, login_user
 from rest_framework import routers
 from capstoneApi.views import GuestView
+from capstoneApi.views import HostView
+from capstoneApi.views import BusView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'guests', GuestView, 'guest')
+router.register(r'hosts', HostView, 'host')
+router.register(r'buses', BusView, 'bus')
 
 urlpatterns = [
     path('register', register_user),
