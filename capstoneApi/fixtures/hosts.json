@@ -1,0 +1,30 @@
+[
+	{
+		"model": "capstoneApi.host",
+		"pk": 1,
+		"fields": {
+		"user": 2,
+		"rentalNumber": "100"}
+	},
+	{
+		"model": "capstoneApi.host",
+		"pk": 2,
+		"fields": {
+		"user": 3,
+		"rentalNumber": "3"}
+	},
+	{
+		"model": "capstoneApi.host",
+		"pk": 3,
+		"fields": {
+		"user": 4,
+		"rentalNumber": "7"}
+	},
+	{
+		"model": "capstoneApi.host",
+		"pk": 4,
+		"fields": {
+		"user": 5,
+		"rentalNumber": "7"}
+	}
+]

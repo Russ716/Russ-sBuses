@@ -1,81 +1,122 @@
-[{
-    "id": 1,
-    "guest": 7,
-    "bus": 49,
-    "owner": 1,
-    "reserveStart": "2022-12-30",
-    "reserveNights": 9,
-    "estimateCost": 9936
-  }, {
-    "id": 2,
-    "guest": 9,
-    "bus": 12,
-    "owner": 5,
-    "reserveStart": "2023-04-04",
-    "reserveNights": 17,
-    "estimateCost": 3578
-  }, {
-    "id": 3,
-    "guest": 9,
-    "bus": 42,
-    "owner": 4,
-    "reserveStart": "2023-06-12",
-    "reserveNights": 11,
-    "estimateCost": 7248
-  }, {
-    "id": 4,
-    "guest": 10,
-    "bus": 15,
-    "owner": 5,
-    "reserveStart": "2023-01-09",
-    "reserveNights": 2,
-    "estimateCost": 2366
-  }, {
-    "id": 5,
-    "guest": 10,
-    "bus": 39,
-    "owner": 5,
-    "reserveStart": "2023-01-07",
-    "reserveNights": 3,
-    "estimateCost": 9604
-  }, {
-    "id": 6,
-    "guest": 10,
-    "bus": 42,
-    "owner": 1,
-    "reserveStart": "2023-06-17",
-    "reserveNights": 2,
-    "estimateCost": 3426
-  }, {
-    "id": 7,
-    "guest": 6,
-    "bus": 1,
-    "owner": 2,
-    "reserveStart": "2023-04-27",
-    "reserveNights": 2,
-    "estimateCost": 3133
-  }, {
-    "id": 8,
-    "guest": 6,
-    "bus": 26,
-    "owner": 3,
-    "reserveStart": "2023-02-28",
-    "reserveNights": 6,
-    "estimateCost": 9201
-  }, {
-    "id": 9,
-    "guest": 8,
-    "bus": 28,
-    "owner": 4,
-    "reserveStart": "2023-06-28",
-    "reserveNights": 3,
-    "estimateCost": 5214
-  }, {
-    "id": 10,
-    "guest": 8,
-    "bus": 1,
-    "owner": 2,
-    "reserveStart": "2023-04-19",
-    "reserveNights": 4,
-    "estimateCost": 8700
-  }]
+[
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 1,
+    "fields": {
+      "guest": 6,
+      "bus": 49,
+      "owner": 1,
+      "reserveStart": "2022-12-30",
+      "reserveNights": 9,
+      "estimateCost": 9936
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 2,
+    "fields": {
+      "guest": 1,
+      "bus": 12,
+      "owner": 1,
+      "reserveStart": "2023-04-04",
+      "reserveNights": 17,
+      "estimateCost": 3578
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 3,
+    "fields": {
+      "guest": 2,
+      "bus": 42,
+      "owner": 2,
+      "reserveStart": "2023-06-12",
+      "reserveNights": 11,
+      "estimateCost": 7248
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 4,
+    "fields": {
+      "guest": 3,
+      "bus": 15,
+      "owner": 3,
+      "reserveStart": "2023-01-09",
+      "reserveNights": 2,
+      "estimateCost": 2366
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 5,
+    "fields": {
+      "guest": 4,
+      "bus": 39,
+      "owner": 4,
+      "reserveStart": "2023-01-07",
+      "reserveNights": 3,
+      "estimateCost": 9604
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 6,
+    "fields": {
+      "guest": 5,
+      "bus": 42,
+      "owner": 1,
+      "reserveStart": "2023-06-17",
+      "reserveNights": 2,
+      "estimateCost": 3426
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 7,
+    "fields": {
+      "guest": 6,
+      "bus": 1,
+      "owner": 2,
+      "reserveStart": "2023-04-27",
+      "reserveNights": 2,
+      "estimateCost": 3133
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 8,
+    "fields": {
+      "guest": 1,
+      "bus": 26,
+      "owner": 3,
+      "reserveStart": "2023-02-28",
+      "reserveNights": 6,
+      "estimateCost": 9201
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 9,
+    "fields": {
+      "guest": 2,
+      "bus": 28,
+      "owner": 4,
+      "reserveStart": "2023-06-28",
+      "reserveNights": 3,
+      "estimateCost": 5214
+    }
+  },
+  {
+    "model": "capstoneApi.reservation",
+    "pk": 10,
+    "fields": {
+      "guest": 3,
+      "bus": 1,
+      "owner": 2,
+      "reserveStart": "2023-04-19",
+      "reserveNights": 4,
+      "estimateCost": 8700
+    }
+  }
+]
