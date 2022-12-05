@@ -1,0 +1,44 @@
+[
+	{
+		"model": "capstoneApi.guest",
+		"pk": 1,
+		"fields": {
+		"user": 1,
+		"mileageTraveled": "100"}
+	},
+	{
+		"model": "capstoneApi.guest",
+		"pk": 2,
+		"fields": {
+		"user": 6,
+		"mileageTraveled": "1"}
+	},
+	{
+		"model": "capstoneApi.guest",
+		"pk": 3,
+		"fields": {
+		"user": 7,
+		"mileageTraveled": "11"}
+	},
+	{
+		"model": "capstoneApi.guest",
+		"pk": 4,
+		"fields": {
+		"user": 8,
+		"mileageTraveled": "111"}
+	},
+	{
+		"model": "capstoneApi.guest",
+		"pk": 5,
+		"fields": {
+		"user": 9,
+		"mileageTraveled": "1111"}
+	},
+	{
+		"model": "capstoneApi.guest",
+		"pk": 6,
+		"fields": {
+		"user": 10,
+		"mileageTraveled": "11211"}
+	}
+]
