@@ -37,3 +37,4 @@ class GuestSerializer(serializers.ModelSerializer):
     class Meta:
         model = Guest
         fields = ('id', 'user', 'mileageTraveled')
+        depth = 1

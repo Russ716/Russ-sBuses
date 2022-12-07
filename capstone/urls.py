@@ -18,9 +18,7 @@ from django.conf.urls import include
 from django.urls import path
 from capstoneApi.views import register_user, login_user
 from rest_framework import routers
-from capstoneApi.views import GuestView
-from capstoneApi.views import HostView
-from capstoneApi.views import BusView
+from capstoneApi.views import GuestView, HostView, BusView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'guests', GuestView, 'guest')

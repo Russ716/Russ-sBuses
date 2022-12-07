@@ -16,7 +16,10 @@ class BusView(ViewSet):
             Response -- JSON serialized list of buses
         """
 
-        buses = Bus.objects.all()
+        if request.auth.user.is_staff:
+            buses = Bus.objects.filter(host=request.auth.user)
+        else:
+            buses = Bus.objects.all()
         serialized = BusSerializer(buses, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
@@ -37,3 +40,4 @@ class BusSerializer(serializers.ModelSerializer):
     class Meta:
         model = Bus
         fields = ('year', 'make', 'model', 'color', 'odometer', 'capacity', 'chauffeured', 'owner')
+        depth = 1
