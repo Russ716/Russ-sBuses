@@ -10,3 +10,4 @@ class Bus(models.Model):
     capacity = models.PositiveSmallIntegerField()
     chauffeured = models.BooleanField()
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    image = models.CharField(max_length=256)

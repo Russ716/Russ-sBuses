@@ -4,5 +4,10 @@
         "--django-settings-module=captstone.settings",
     ],
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0A2080",
+        "titleBar.activeBackground": "#0E2DB3",
+        "titleBar.activeForeground": "#F9FAFF"
+    }
 }

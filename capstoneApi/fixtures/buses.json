@@ -1,508 +1,754 @@
-[{
-  "model" : "capstoneApi.bus",
-  "pk": 1,
-  "fields": {
-    "year": 1995,
-    "make": "Acura",
-    "model": "Legend",
-    "color": "Khaki",
-    "odometer": "10",
-    "capacity": 19,
-    "chauffeured": false,
-    "owner": 4
+[
+  {
+    "model": "capstoneApi.bus",
+    "pk": 1,
+    "fields": {
+      "year": 1995,
+      "make": "Acura",
+      "model": "Legend",
+      "color": "Khaki",
+      "odometer": "10",
+      "capacity": 19,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+
+    "pk": 2,
+    "fields": {
+      "year": 1999,
+      "make": "Acura",
+      "model": "Integra",
+      "color": "Puce",
+      "odometer": "88",
+      "capacity": 23,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+
+    "pk": 3,
+    "fields": {
+      "year": 2002,
+      "make": "GMC",
+      "model": "Sierra 2500",
+      "color": "Aquamarine",
+      "odometer": "52",
+      "capacity": 46,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 3
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 4,
+    "fields": {
+      "year": 1989,
+      "make": "Citroën",
+      "model": "CX",
+      "color": "Green",
+      "odometer": "37",
+      "capacity": 45,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 5,
+    "fields": {
+      "year": 1996,
+      "make": "Cadillac",
+      "model": "Seville",
+      "color": "Puce",
+      "odometer": "6025",
+      "capacity": 6,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 6,
+    "fields": {
+      "year": 2003,
+      "make": "Volvo",
+      "model": "XC90",
+      "color": "Khaki",
+      "odometer": "7970",
+      "capacity": 4,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 7,
+    "fields": {
+      "year": 2008,
+      "make": "Audi",
+      "model": "A4",
+      "color": "Turquoise",
+      "odometer": "13877",
+      "capacity": 7,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 8,
+    "fields": {
+      "year": 1999,
+      "make": "Toyota",
+      "model": "Camry",
+      "color": "Yellow",
+      "odometer": "025",
+      "capacity": 16,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 9,
+    "fields": {
+      "year": 2006,
+      "make": "GMC",
+      "model": "Savana 1500",
+      "color": "Mauv",
+      "odometer": "0930",
+      "capacity": 30,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 10,
+    "fields": {
+      "year": 1989,
+      "make": "Citroën",
+      "model": "CX",
+      "color": "Turquoise",
+      "odometer": "12",
+      "capacity": 50,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 11,
+    "fields": {
+      "year": 1994,
+      "make": "Chevrolet",
+      "model": "Cavalier",
+      "color": "Red",
+      "odometer": "236",
+      "capacity": 3,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 12,
+    "fields": {
+      "year": 1984,
+      "make": "Mitsubishi",
+      "model": "Galant",
+      "color": "Crimson",
+      "odometer": "609",
+      "capacity": 1,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 13,
+    "fields": {
+      "year": 1985,
+      "make": "Mitsubishi",
+      "model": "Starion",
+      "color": "Purple",
+      "odometer": "58479",
+      "capacity": 37,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 14,
+    "fields": {
+      "year": 1992,
+      "make": "Mercedes-Benz",
+      "model": "300SE",
+      "color": "Orange",
+      "odometer": "5",
+      "capacity": 11,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 15,
+    "fields": {
+      "year": 2009,
+      "make": "Mazda",
+      "model": "Mazda3",
+      "color": "Orange",
+      "odometer": "8371",
+      "capacity": 34,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 16,
+    "fields": {
+      "year": 1993,
+      "make": "Ford",
+      "model": "Tempo",
+      "color": "Turquoise",
+      "odometer": "8494",
+      "capacity": 17,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 1
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 17,
+    "fields": {
+      "year": 2009,
+      "make": "Dodge",
+      "model": "Charger",
+      "color": "Pink",
+      "odometer": "3741",
+      "capacity": 31,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 3
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 18,
+    "fields": {
+      "year": 1993,
+      "make": "Mercedes-Benz",
+      "model": "400SEL",
+      "color": "Blue",
+      "odometer": "53169",
+      "capacity": 20,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 19,
+    "fields": {
+      "year": 2012,
+      "make": "Infiniti",
+      "model": "EX",
+      "color": "Fuscia",
+      "odometer": "71355",
+      "capacity": 12,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 20,
+    "fields": {
+      "year": 2011,
+      "make": "Honda",
+      "model": "CR-Z",
+      "color": "Orange",
+      "odometer": "67",
+      "capacity": 43,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 21,
+    "fields": {
+      "year": 1994,
+      "make": "Chevrolet",
+      "model": "Caprice",
+      "color": "Fuscia",
+      "odometer": "4569",
+      "capacity": 42,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 22,
+    "fields": {
+      "year": 2003,
+      "make": "Chevrolet",
+      "model": "Astro",
+      "color": "Red",
+      "odometer": "0",
+      "capacity": 34,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 23,
+    "fields": {
+      "year": 2006,
+      "make": "Cadillac",
+      "model": "CTS",
+      "color": "Teal",
+      "odometer": "16606",
+      "capacity": 25,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 24,
+    "fields": {
+      "year": 1992,
+      "make": "Mazda",
+      "model": "MX-3",
+      "color": "Pink",
+      "odometer": "623",
+      "capacity": 21,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 25,
+    "fields": {
+      "year": 1960,
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "color": "Pink",
+      "odometer": "2083",
+      "capacity": 10,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 26,
+    "fields": {
+      "year": 2010,
+      "make": "Jeep",
+      "model": "Commander",
+      "color": "Green",
+      "odometer": "938",
+      "capacity": 49,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 3
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 27,
+    "fields": {
+      "year": 1996,
+      "make": "Suzuki",
+      "model": "Sidekick",
+      "color": "Blue",
+      "odometer": "934",
+      "capacity": 13,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 28,
+    "fields": {
+      "year": 1990,
+      "make": "Lincoln",
+      "model": "Town Car",
+      "color": "Pink",
+      "odometer": "819",
+      "capacity": 4,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 29,
+    "fields": {
+      "year": 1996,
+      "make": "GMC",
+      "model": "Savana 3500",
+      "color": "Purple",
+      "odometer": "1",
+      "capacity": 49,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 30,
+    "fields": {
+      "year": 2002,
+      "make": "Infiniti",
+      "model": "G",
+      "color": "Goldenrod",
+      "odometer": "62",
+      "capacity": 3,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 31,
+    "fields": {
+      "year": 1995,
+      "make": "Buick",
+      "model": "Riviera",
+      "color": "Violet",
+      "odometer": "052",
+      "capacity": 29,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 32,
+    "fields": {
+      "year": 1993,
+      "make": "Chevrolet",
+      "model": "S10",
+      "color": "Blue",
+      "odometer": "76719",
+      "capacity": 30,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 1
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 33,
+    "fields": {
+      "year": 2002,
+      "make": "Porsche",
+      "model": "Boxster",
+      "color": "Indigo",
+      "odometer": "87",
+      "capacity": 16,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 34,
+    "fields": {
+      "year": 1987,
+      "make": "Buick",
+      "model": "Century",
+      "color": "Yellow",
+      "odometer": "068",
+      "capacity": 39,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 35,
+    "fields": {
+      "year": 1998,
+      "make": "Lexus",
+      "model": "GS",
+      "color": "Blue",
+      "odometer": "04982",
+      "capacity": 43,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 36,
+    "fields": {
+      "year": 1998,
+      "make": "Mercedes-Benz",
+      "model": "M-Class",
+      "color": "Violet",
+      "odometer": "92",
+      "capacity": 20,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 37,
+    "fields": {
+      "year": 1992,
+      "make": "Plymouth",
+      "model": "Sundance",
+      "color": "Fuscia",
+      "odometer": "1919",
+      "capacity": 37,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 3
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 38,
+    "fields": {
+      "year": 2009,
+      "make": "Mazda",
+      "model": "Miata MX-5",
+      "color": "Maroon",
+      "odometer": "6919",
+      "capacity": 30,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 1
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 39,
+    "fields": {
+      "year": 2003,
+      "make": "Toyota",
+      "model": "Camry",
+      "color": "Red",
+      "odometer": "20579",
+      "capacity": 13,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 40,
+    "fields": {
+      "year": 2008,
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "color": "Aquamarine",
+      "odometer": "78",
+      "capacity": 33,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 41,
+    "fields": {
+      "year": 2012,
+      "make": "BMW",
+      "model": "X5 M",
+      "color": "Teal",
+      "odometer": "0774",
+      "capacity": 20,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 42,
+    "fields": {
+      "year": 1984,
+      "make": "Honda",
+      "model": "Prelude",
+      "color": "Blue",
+      "odometer": "62105",
+      "capacity": 13,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 1
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 43,
+    "fields": {
+      "year": 1985,
+      "make": "Buick",
+      "model": "Regal",
+      "color": "Violet",
+      "odometer": "20625",
+      "capacity": 12,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 44,
+    "fields": {
+      "year": 1993,
+      "make": "Mitsubishi",
+      "model": "GTO",
+      "color": "Khaki",
+      "odometer": "824",
+      "capacity": 38,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 45,
+    "fields": {
+      "year": 2007,
+      "make": "Volkswagen",
+      "model": "Rabbit",
+      "color": "Green",
+      "odometer": "7",
+      "capacity": 46,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 46,
+    "fields": {
+      "year": 1992,
+      "make": "Ford",
+      "model": "Crown Victoria",
+      "color": "Turquoise",
+      "odometer": "5",
+      "capacity": 39,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 47,
+    "fields": {
+      "year": 1994,
+      "make": "Mazda",
+      "model": "MX-6",
+      "color": "Turquoise",
+      "odometer": "1372",
+      "capacity": 48,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 4
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 48,
+    "fields": {
+      "year": 2010,
+      "make": "Honda",
+      "model": "Fit",
+      "color": "Turquoise",
+      "odometer": "991",
+      "capacity": 37,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 5
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 49,
+    "fields": {
+      "year": 1996,
+      "make": "Chevrolet",
+      "model": "3500",
+      "color": "Green",
+      "odometer": "2264",
+      "capacity": 8,
+      "chauffeured": false,
+      "image": "https://picsum.photos/200/300",
+      "owner": 1
+    }
+  },
+  {
+    "model": "capstoneApi.bus",
+    "pk": 50,
+    "fields": {
+      "year": 2009,
+      "make": "Aptera",
+      "model": "2e",
+      "color": "Fuscia",
+      "odometer": "7",
+      "capacity": 22,
+      "chauffeured": true,
+      "image": "https://picsum.photos/200/300",
+      "owner": 2
+    }
   }
-}, {"model" : "capstoneApi.bus",
-  
-  "pk": 2,
-  "fields": {
-    "year": 1999,
-  "make": "Acura",
-  "model": "Integra",
-  "color": "Puce",
-  "odometer": "88",
-  "capacity": 23,
-  "chauffeured": true,
-  "owner": 4}
-  }, {"model" : "capstoneApi.bus",
-  
-  "pk": 3,
-  "fields": {
-    "year": 2002,
-  "make": "GMC",
-  "model": "Sierra 2500",
-  "color": "Aquamarine",
-  "odometer": "52",
-  "capacity": 46,
-  "chauffeured": false,
-  "owner": 3}
-}, {"model" : "capstoneApi.bus",
-  "pk": 4,
-    "fields": { "year": 1989,
-  "make": "Citroën",
-  "model": "CX",
-  "color": "Green",
-  "odometer": "37",
-  "capacity": 45,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 5,
-    "fields": { "year": 1996,
-  "make": "Cadillac",
-  "model": "Seville",
-  "color": "Puce",
-  "odometer": "6025",
-  "capacity": 6,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 6,
-    "fields": { "year": 2003,
-  "make": "Volvo",
-  "model": "XC90",
-  "color": "Khaki",
-  "odometer": "7970",
-  "capacity": 4,
-  "chauffeured": true,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 7,
-    "fields": { "year": 2008,
-  "make": "Audi",
-  "model": "A4",
-  "color": "Turquoise",
-  "odometer": "13877",
-  "capacity": 7,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 8,
-    "fields": { "year": 1999,
-  "make": "Toyota",
-  "model": "Camry",
-  "color": "Yellow",
-  "odometer": "025",
-  "capacity": 16,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 9,
-    "fields": { "year": 2006,
-  "make": "GMC",
-  "model": "Savana 1500",
-  "color": "Mauv",
-  "odometer": "0930",
-  "capacity": 30,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 10,
-    "fields": { "year": 1989,
-  "make": "Citroën",
-  "model": "CX",
-  "color": "Turquoise",
-  "odometer": "12",
-  "capacity": 50,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 11,
-    "fields": { "year": 1994,
-  "make": "Chevrolet",
-  "model": "Cavalier",
-  "color": "Red",
-  "odometer": "236",
-  "capacity": 3,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 12,
-    "fields": { "year": 1984,
-  "make": "Mitsubishi",
-  "model": "Galant",
-  "color": "Crimson",
-  "odometer": "609",
-  "capacity": 1,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 13,
-    "fields": { "year": 1985,
-  "make": "Mitsubishi",
-  "model": "Starion",
-  "color": "Purple",
-  "odometer": "58479",
-  "capacity": 37,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 14,
-    "fields": { "year": 1992,
-  "make": "Mercedes-Benz",
-  "model": "300SE",
-  "color": "Orange",
-  "odometer": "5",
-  "capacity": 11,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 15,
-    "fields": { "year": 2009,
-  "make": "Mazda",
-  "model": "Mazda3",
-  "color": "Orange",
-  "odometer": "8371",
-  "capacity": 34,
-  "chauffeured": true,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 16,
-    "fields": { "year": 1993,
-  "make": "Ford",
-  "model": "Tempo",
-  "color": "Turquoise",
-  "odometer": "8494",
-  "capacity": 17,
-  "chauffeured": false,
-  "owner": 1
-} }, {"model" : "capstoneApi.bus",
-  "pk": 17,
-    "fields": { "year": 2009,
-  "make": "Dodge",
-  "model": "Charger",
-  "color": "Pink",
-  "odometer": "3741",
-  "capacity": 31,
-  "chauffeured": false,
-  "owner": 3
-} }, {"model" : "capstoneApi.bus",
-  "pk": 18,
-    "fields": { "year": 1993,
-  "make": "Mercedes-Benz",
-  "model": "400SEL",
-  "color": "Blue",
-  "odometer": "53169",
-  "capacity": 20,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 19,
-    "fields": { "year": 2012,
-  "make": "Infiniti",
-  "model": "EX",
-  "color": "Fuscia",
-  "odometer": "71355",
-  "capacity": 12,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 20,
-    "fields": { "year": 2011,
-  "make": "Honda",
-  "model": "CR-Z",
-  "color": "Orange",
-  "odometer": "67",
-  "capacity": 43,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 21,
-    "fields": { "year": 1994,
-  "make": "Chevrolet",
-  "model": "Caprice",
-  "color": "Fuscia",
-  "odometer": "4569",
-  "capacity": 42,
-  "chauffeured": false,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 22,
-    "fields": { "year": 2003,
-  "make": "Chevrolet",
-  "model": "Astro",
-  "color": "Red",
-  "odometer": "0",
-  "capacity": 34,
-  "chauffeured": true,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 23,
-    "fields": { "year": 2006,
-  "make": "Cadillac",
-  "model": "CTS",
-  "color": "Teal",
-  "odometer": "16606",
-  "capacity": 25,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 24,
-    "fields": { "year": 1992,
-  "make": "Mazda",
-  "model": "MX-3",
-  "color": "Pink",
-  "odometer": "623",
-  "capacity": 21,
-  "chauffeured": false,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 25,
-    "fields": { "year": 1960,
-  "make": "Chevrolet",
-  "model": "Corvette",
-  "color": "Pink",
-  "odometer": "2083",
-  "capacity": 10,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 26,
-    "fields": { "year": 2010,
-  "make": "Jeep",
-  "model": "Commander",
-  "color": "Green",
-  "odometer": "938",
-  "capacity": 49,
-  "chauffeured": false,
-  "owner": 3
-} }, {"model" : "capstoneApi.bus",
-  "pk": 27,
-    "fields": { "year": 1996,
-  "make": "Suzuki",
-  "model": "Sidekick",
-  "color": "Blue",
-  "odometer": "934",
-  "capacity": 13,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 28,
-    "fields": { "year": 1990,
-  "make": "Lincoln",
-  "model": "Town Car",
-  "color": "Pink",
-  "odometer": "819",
-  "capacity": 4,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 29,
-    "fields": { "year": 1996,
-  "make": "GMC",
-  "model": "Savana 3500",
-  "color": "Purple",
-  "odometer": "1",
-  "capacity": 49,
-  "chauffeured": false,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 30,
-    "fields": { "year": 2002,
-  "make": "Infiniti",
-  "model": "G",
-  "color": "Goldenrod",
-  "odometer": "62",
-  "capacity": 3,
-  "chauffeured": false,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 31,
-    "fields": { "year": 1995,
-  "make": "Buick",
-  "model": "Riviera",
-  "color": "Violet",
-  "odometer": "052",
-  "capacity": 29,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 32,
-    "fields": { "year": 1993,
-  "make": "Chevrolet",
-  "model": "S10",
-  "color": "Blue",
-  "odometer": "76719",
-  "capacity": 30,
-  "chauffeured": true,
-  "owner": 1
-} }, {"model" : "capstoneApi.bus",
-  "pk": 33,
-    "fields": { "year": 2002,
-  "make": "Porsche",
-  "model": "Boxster",
-  "color": "Indigo",
-  "odometer": "87",
-  "capacity": 16,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 34,
-    "fields": { "year": 1987,
-  "make": "Buick",
-  "model": "Century",
-  "color": "Yellow",
-  "odometer": "068",
-  "capacity": 39,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 35,
-    "fields": { "year": 1998,
-  "make": "Lexus",
-  "model": "GS",
-  "color": "Blue",
-  "odometer": "04982",
-  "capacity": 43,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 36,
-    "fields": { "year": 1998,
-  "make": "Mercedes-Benz",
-  "model": "M-Class",
-  "color": "Violet",
-  "odometer": "92",
-  "capacity": 20,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 37,
-    "fields": { "year": 1992,
-  "make": "Plymouth",
-  "model": "Sundance",
-  "color": "Fuscia",
-  "odometer": "1919",
-  "capacity": 37,
-  "chauffeured": false,
-  "owner": 3
-} }, {"model" : "capstoneApi.bus",
-  "pk": 38,
-    "fields": { "year": 2009,
-  "make": "Mazda",
-  "model": "Miata MX-5",
-  "color": "Maroon",
-  "odometer": "6919",
-  "capacity": 30,
-  "chauffeured": false,
-  "owner": 1
-} }, {"model" : "capstoneApi.bus",
-  "pk": 39,
-    "fields": { "year": 2003,
-  "make": "Toyota",
-  "model": "Camry",
-  "color": "Red",
-  "odometer": "20579",
-  "capacity": 13,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 40,
-    "fields": { "year": 2008,
-  "make": "Chevrolet",
-  "model": "Colorado",
-  "color": "Aquamarine",
-  "odometer": "78",
-  "capacity": 33,
-  "chauffeured": false,
-  "owner": 2
-} }, {"model" : "capstoneApi.bus",
-  "pk": 41,
-    "fields": { "year": 2012,
-  "make": "BMW",
-  "model": "X5 M",
-  "color": "Teal",
-  "odometer": "0774",
-  "capacity": 20,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 42,
-    "fields": { "year": 1984,
-  "make": "Honda",
-  "model": "Prelude",
-  "color": "Blue",
-  "odometer": "62105",
-  "capacity": 13,
-  "chauffeured": true,
-  "owner": 1
-} }, {"model" : "capstoneApi.bus",
-  "pk": 43,
-    "fields": { "year": 1985,
-  "make": "Buick",
-  "model": "Regal",
-  "color": "Violet",
-  "odometer": "20625",
-  "capacity": 12,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 44,
-    "fields": { "year": 1993,
-  "make": "Mitsubishi",
-  "model": "GTO",
-  "color": "Khaki",
-  "odometer": "824",
-  "capacity": 38,
-  "chauffeured": false,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 45,
-    "fields": { "year": 2007,
-  "make": "Volkswagen",
-  "model": "Rabbit",
-  "color": "Green",
-  "odometer": "7",
-  "capacity": 46,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 46,
-    "fields": { "year": 1992,
-  "make": "Ford",
-  "model": "Crown Victoria",
-  "color": "Turquoise",
-  "odometer": "5",
-  "capacity": 39,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 47,
-    "fields": { "year": 1994,
-  "make": "Mazda",
-  "model": "MX-6",
-  "color": "Turquoise",
-  "odometer": "1372",
-  "capacity": 48,
-  "chauffeured": true,
-  "owner": 4
-} }, {"model" : "capstoneApi.bus",
-  "pk": 48,
-    "fields": { "year": 2010,
-  "make": "Honda",
-  "model": "Fit",
-  "color": "Turquoise",
-  "odometer": "991",
-  "capacity": 37,
-  "chauffeured": true,
-  "owner": 5
-} }, {"model" : "capstoneApi.bus",
-  "pk": 49,
-    "fields": { "year": 1996,
-  "make": "Chevrolet",
-  "model": "3500",
-  "color": "Green",
-  "odometer": "2264",
-  "capacity": 8,
-  "chauffeured": false,
-  "owner": 1
-} }, {"model" : "capstoneApi.bus",
-  "pk": 50,
-    "fields": { "year": 2009,
-  "make": "Aptera",
-  "model": "2e",
-  "color": "Fuscia",
-  "odometer": "7",
-  "capacity": 22,
-  "chauffeured": true,
-  "owner": 2
-}}]
+]

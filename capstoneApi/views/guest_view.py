@@ -36,5 +36,5 @@ class GuestSerializer(serializers.ModelSerializer):
     """JSON serializer for guests"""
     class Meta:
         model = Guest
-        fields = ('id', 'user', 'mileageTraveled')
+        fields = ('id', 'full_name', 'mileageTraveled')
         depth = 1
