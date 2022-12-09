@@ -15,7 +15,8 @@ class BusView(ViewSet):
         Returns:
             Response -- JSON serialized list of buses
         """
-
+        buses = []
+        
         if request.auth.user.is_staff:
             buses = Bus.objects.filter(host=request.auth.user)
         else:
@@ -50,6 +51,26 @@ class BusView(ViewSet):
         
         serialized = BusSerializer(new_bus, many = False)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request):
+        """Handle PUT requests for a bus
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+        bus = Bus.objects.get(pk=request.data["id"])
+        bus.year = request.data["year"]
+        bus.make = request.data["make"]
+        bus.model = request.data["model"]
+        bus.color = request.data["color"]
+        bus.odometer = request.data["odometer"]
+        bus.capacity = request.data["capacity"]
+        bus.chauffeured = request.data["chauffeured"]
+        bus.owner = Host.objects.get(user=request.auth.user)
+        bus.image = request.data["image"]
+        bus.save()
+        
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class BusOwnerSerializer(serializers.ModelSerializer):
     """JSON serializer for bus owners"""

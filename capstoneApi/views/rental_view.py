@@ -51,6 +51,26 @@ class RentalView(ViewSet):
         serialized = RentalSerializer(new_rental, many = False)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
 
+    def update(self, request, pk=None):
+        """Handle PUT requests for a rental
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+
+        rental = Rental.objects.get(pk=pk)
+        reservation = Reservation.objects.get(pk=request.data["reservation"])
+        
+        rental.reservation = reservation
+        rental.pickUp = request.data["pickUp"]
+        rental.startFuel = request.data["startFuel"]
+        rental.dropOff = request.data["dropOff"]
+        rental.newOdometer = request.data["newOdometer"]
+        rental.endFuel = request.data["endFuel"]
+        rental.totalCost = request.data["totalCost"]
+        rental.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class RentalSerializer(serializers.ModelSerializer):
     """JSON serializer for rentals"""

@@ -52,6 +52,20 @@ class ReservationView(ViewSet):
         serialized = ReservationSerializer(new_reservation, many = False)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
 
+    def update(self, request, pk=None):
+        """Handle PUT requests for a reservation
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+        reservation = Reservation.objects.get(pk=pk)
+        reservation.reserveStart = request.data["reserveStart"]
+        reservation.reserveNights = request.data["reserveNights"]
+        reservation.estimateCost = request.data["estimateCost"]
+        reservation.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class ReservationSerializer(serializers.ModelSerializer):
     """JSON serializer for reservations"""
     class Meta:
