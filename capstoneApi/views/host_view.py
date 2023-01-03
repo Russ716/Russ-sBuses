@@ -36,4 +36,5 @@ class HostSerializer(serializers.ModelSerializer):
     """JSON serializer for hosts"""
     class Meta:
         model = Host
-        fields = ('id', 'user', 'rentalNumber')
+        fields = ('id', 'full_name', 'rentalNumber')
+        depth = 1

@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+
 
 class Bus(models.Model):
     year = models.PositiveSmallIntegerField()
@@ -9,4 +9,9 @@ class Bus(models.Model):
     odometer = models.PositiveSmallIntegerField()
     capacity = models.PositiveSmallIntegerField()
     chauffeured = models.BooleanField()
-    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    owner = models.ForeignKey("Host", on_delete=models.CASCADE)
+    image = models.CharField(max_length=256)
+    
+    @property
+    def owner_name(self):
+        return f'{self.owner.first_name} {self.owner.last_name}'

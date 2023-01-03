@@ -31,7 +31,10 @@ def login_user(request):
         data = {
             'valid': True,
             'token': token.key,
-            'staff': authenticated_user.is_staff
+            'staff': authenticated_user.is_staff,
+            'firstName': authenticated_user.first_name,
+            'lastName': authenticated_user.last_name,
+            
         }
         return Response(data)
     else:
