@@ -18,7 +18,9 @@ class BusView(ViewSet):
         buses = []
         
         if request.auth.user.is_staff:
-            buses = Bus.objects.filter(host=request.auth.user)
+            host=Host.objects.get(user=request.auth.user)
+            buses = Bus.objects.filter(owner=host)
+            # buses = Bus.objects.all()
         else:
             buses = Bus.objects.all()
         serialized = BusSerializer(buses, many=True)
@@ -52,7 +54,7 @@ class BusView(ViewSet):
         serialized = BusSerializer(new_bus, many = False)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
 
-    def update(self, request):
+    def update(self, request, pk):
         """Handle PUT requests for a bus
 
         Returns:
@@ -94,7 +96,7 @@ class BusOwnerSerializer(serializers.ModelSerializer):
     """JSON serializer for bus owners"""
     class Meta:
         model = Host
-        fields = ('id', 'full_name', 'rentalNumber')
+        fields = ('id', 'full_name')
 
 class BusSerializer(serializers.ModelSerializer):
     """JSON serializer for buses"""
@@ -102,5 +104,5 @@ class BusSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Bus
-        fields = ('year', 'make', 'model', 'color', 'odometer', 'capacity', 'chauffeured', 'owner', 'image')
+        fields = ('id', 'year', 'make', 'model', 'color', 'odometer', 'capacity', 'chauffeured', 'owner_name', 'image', 'owner')
         depth = 1

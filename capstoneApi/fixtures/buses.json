@@ -58,7 +58,7 @@
       "capacity": 45,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -103,7 +103,7 @@
       "capacity": 7,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -133,7 +133,7 @@
       "capacity": 30,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -163,7 +163,7 @@
       "capacity": 3,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -283,7 +283,7 @@
       "capacity": 12,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -343,7 +343,7 @@
       "capacity": 25,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -373,7 +373,7 @@
       "capacity": 10,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -403,7 +403,7 @@
       "capacity": 13,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -523,7 +523,7 @@
       "capacity": 43,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -613,7 +613,7 @@
       "capacity": 20,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -643,7 +643,7 @@
       "capacity": 12,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -658,7 +658,7 @@
       "capacity": 38,
       "chauffeured": false,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -688,7 +688,7 @@
       "capacity": 39,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
@@ -718,7 +718,7 @@
       "capacity": 37,
       "chauffeured": true,
       "image": "https://picsum.photos/200/300",
-      "owner": 5
+      "owner": 1
     }
   },
   {
