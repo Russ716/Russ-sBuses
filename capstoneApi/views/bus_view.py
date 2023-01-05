@@ -7,7 +7,7 @@ from capstoneApi.models import Bus, Host
 
 
 class BusView(ViewSet):
-    """Honey Rae API buses view"""
+    """ buses view"""
 
     def list(self, request):
         """Handle GET requests to get all buses

@@ -18,12 +18,14 @@ from django.conf.urls import include
 from django.urls import path
 from capstoneApi.views import register_user, login_user
 from rest_framework import routers
-from capstoneApi.views import GuestView, HostView, BusView
+from capstoneApi.views import GuestView, HostView, BusView, ReservationView, RentalView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'guests', GuestView, 'guest')
 router.register(r'hosts', HostView, 'host')
 router.register(r'buses', BusView, 'bus')
+router.register(r'reservations', ReservationView, 'reservation')
+router.register(r'rentals', RentalView, 'rental')
 
 urlpatterns = [
     path('register', register_user),

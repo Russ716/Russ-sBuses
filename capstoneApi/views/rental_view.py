@@ -7,7 +7,7 @@ from capstoneApi.models import Rental, Reservation
 
 
 class RentalView(ViewSet):
-    """Honey Rae API rentals view"""
+    """Russ's Buses API rentals view"""
 
     def list(self, request):
         """Handle GET requests to get all rentals

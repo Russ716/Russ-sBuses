@@ -7,7 +7,7 @@ from capstoneApi.models import Reservation, Guest, Host, Bus
 
 
 class ReservationView(ViewSet):
-    """Honey Rae API reservations view"""
+    """Russ's Buses API reservations view"""
 
     def list(self, request):
         """Handle GET requests to get all reservations
@@ -34,16 +34,16 @@ class ReservationView(ViewSet):
         serialized = ReservationSerializer(reservation, context={'request': request})
         return Response(serialized.data, status=status.HTTP_200_OK)
 
-    def create(self, request):
-        """POST request for creating Bus object"""
+    def create(self, request,):
+        """POST request for creating Reservation object"""
         guest = Guest.objects.get(user=request.auth.user)
-        bus = Bus.objects.get(pk=request.data["bus"])
-        owner = Host.objects.get(user=request.auth.user)
+        # busOwner = Host.objects.get(pk=pk)
+        
         
         new_reservation = Reservation()
-        new_reservation.owner = owner
         new_reservation.guest = guest
-        new_reservation.bus = bus
+        new_reservation.bus = Bus.objects.get(pk=request.data["bus"])
+        new_reservation.owner = Host.objects.get(pk=request.data["owner"])
         new_reservation.reserveStart = request.data["reserveStart"]
         new_reservation.reserveNights = request.data["reserveNights"]
         new_reservation.estimateCost = request.data["estimateCost"]

@@ -7,7 +7,7 @@ from capstoneApi.models import Guest
 
 
 class GuestView(ViewSet):
-    """Honey Rae API guests view"""
+    """Russ's Buses API guests view"""
 
     def list(self, request):
         """Handle GET requests to get all guests

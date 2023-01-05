@@ -7,7 +7,7 @@ from capstoneApi.models import Host
 
 
 class HostView(ViewSet):
-    """Honey Rae API hosts view"""
+    """Russ's Buses API hosts view"""
 
     def list(self, request):
         """Handle GET requests to get all hosts
